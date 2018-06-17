@@ -6,10 +6,6 @@
       <Extensions>qrc;*</Extensions>
       <ParseFiles>false</ParseFiles>
     </Filter>
-    <Filter Include="from">
-      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
-      <Extensions>ui</Extensions>
-    </Filter>
     <Filter Include="gen">
       <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
       <Extensions>moc;h;cpp</Extensions>
@@ -28,14 +24,10 @@
       <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
       <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
     </Filter>
-  </ItemGroup>
-  <ItemGroup>
-    <QtUic Include="..\from\about.ui">
-      <Filter>from</Filter>
-    </QtUic>
-    <QtUic Include="..\from\main.ui">
-      <Filter>from</Filter>
-    </QtUic>
+    <Filter Include="form">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="..\inc\State_Button.h">
@@ -420,5 +412,13 @@
     <None Include="..\res\skin.ini">
       <Filter>res</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="..\form\about.ui">
+      <Filter>form</Filter>
+    </QtUic>
+    <QtUic Include="..\form\main.ui">
+      <Filter>form</Filter>
+    </QtUic>
   </ItemGroup>
 </Project>
