@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|x64">
@@ -132,7 +132,6 @@
   <ItemGroup>
     <QtRcc Include="..\res\edit.qrc" />
     <QtRcc Include="..\res\skin.qrc" />
-    <QtRcc Include="..\res\test.qrc" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\res\edit\arrow_redo.png">
@@ -573,10 +572,6 @@
   <ItemGroup>
     <QtUic Include="..\form\about.ui" />
     <QtUic Include="..\form\main.ui" />
-<<<<<<< HEAD
-=======
-    <QtUic Include="..\form\test.ui" />
->>>>>>> f579b44f4a1a7a866116ab9f82af76682cf96f3b
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
