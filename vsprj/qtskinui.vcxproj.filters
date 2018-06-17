@@ -1,0 +1,424 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="from">
+      <UniqueIdentifier>{99349809-55BA-4b9d-BF79-8FDBB0286EB3}</UniqueIdentifier>
+      <Extensions>ui</Extensions>
+    </Filter>
+    <Filter Include="gen">
+      <UniqueIdentifier>{71ED8ED8-ACB9-4CE9-BBE1-E00B30144E11}</UniqueIdentifier>
+      <Extensions>moc;h;cpp</Extensions>
+      <SourceControlFiles>False</SourceControlFiles>
+    </Filter>
+    <Filter Include="inc">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="res">
+      <UniqueIdentifier>{D9D6E242-F8AF-46E4-B9FD-80ECBC20BA3E}</UniqueIdentifier>
+      <Extensions>qrc;*</Extensions>
+      <ParseFiles>false</ParseFiles>
+    </Filter>
+    <Filter Include="src">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <QtUic Include="..\from\about.ui">
+      <Filter>from</Filter>
+    </QtUic>
+    <QtUic Include="..\from\main.ui">
+      <Filter>from</Filter>
+    </QtUic>
+  </ItemGroup>
+  <ItemGroup>
+    <QtMoc Include="..\inc\State_Button.h">
+      <Filter>inc</Filter>
+    </QtMoc>
+    <QtMoc Include="..\inc\Title_Bar.h">
+      <Filter>inc</Filter>
+    </QtMoc>
+    <QtMoc Include="..\inc\my_widget.h">
+      <Filter>inc</Filter>
+    </QtMoc>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Base_Widget.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\NcFramelessHelper.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Skin.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\State_Button.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\Title_Bar.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\my_widget.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\inc\Base_Widget.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\NcFramelessHelper.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+    <ClInclude Include="..\inc\Skin.h">
+      <Filter>inc</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\res\edit\arrow_redo.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\edit\arrow_undo.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\edit\attach.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\edit\book_addresses.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\edit\bullet_white.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\edit\cut.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\edit\date.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\edit\email.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\edit\group_add.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\edit\html.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\edit\page_copy.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\edit\palette.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\edit\paste_word.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\edit\r_i.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\edit\r_s.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\edit\r_w.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\edit\tag_blue.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\edit\Text.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\edit\text_align_center.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\edit\text_align_justify.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\edit\text_align_left.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\edit\text_align_right.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\edit\text_bold.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\edit\text_indent.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\edit\text_indent_remove.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\edit\text_italic.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\edit\text_list_bullets.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\edit\text_list_numbers.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\edit\text_lowercase.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\edit\text_underline.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\edit\text_uppercase.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\edit\time.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\edit\txt_list_clear.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\edit\user.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\titlebar\close.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\titlebar\max.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\titlebar\min.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\titlebar\restore.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\titlebar\menu.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\titlebar\skin.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\titlebar\bg.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\titlebar\icon.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\linedit\clear.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\bg\bg.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\bg\client.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\cmb\combobox_hover.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\cmb\combobox_normal.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\cmb\combobox_push.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\cmb\inputbtn_down.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\cmb\inputbtn_highlight.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\cmb\inputbtn_normal.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\cmb\comboboxlist_bkg.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\headerview\All_listctrl_arrowDown.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\headerview\All_listctrl_arrowUp.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\headerview\All_listctrl_titleLine.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\headerview\listhead_down.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\headerview\listhead_highlight.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\headerview\listhead_normal.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\headerview\listitem_even.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\headerview\listitem_highlight.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\headerview\listitem_odd.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\tip\guangdiantongtips_meterial.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\tip\tips.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\tip\tips_meterial.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\tip\tips_png_bkg.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\ScrollBar\scrollbar_arrowdown_down.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\ScrollBar\scrollbar_arrowdown_highlight.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\ScrollBar\scrollbar_arrowdown_normal.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\ScrollBar\scrollbar_arrowleft_down.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\ScrollBar\scrollbar_arrowleft_highlight.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\ScrollBar\scrollbar_arrowleft_normal.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\ScrollBar\scrollbar_arrowright_down.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\ScrollBar\scrollbar_arrowright_highlight.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\ScrollBar\scrollbar_arrowright_normal.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\ScrollBar\scrollbar_arrowup_down.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\ScrollBar\scrollbar_arrowup_highlight.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\ScrollBar\scrollbar_arrowup_normal.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\ScrollBar\scrollbar_bar_down.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\ScrollBar\scrollbar_bar_highlight.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\ScrollBar\scrollbar_bar_normal.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\ScrollBar\scrollbar_bkg.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\ScrollBar\scrollbar_down_down.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\ScrollBar\scrollbar_down_highlight.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\ScrollBar\scrollbar_down_normal.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\ScrollBar\scrollbar_horz_bkg.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\ScrollBar\scrollbar_horzbar_down.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\ScrollBar\scrollbar_horzbar_highlight.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\ScrollBar\scrollbar_horzbar_normal.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\ScrollBar\scrollbar_top_down.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\ScrollBar\scrollbar_top_highlight.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\ScrollBar\scrollbar_top_normal.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\FrameBorder\frameBorderEffect_mouseDownDraw.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\FrameBorder\frameBorderEffect_normalDraw.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\SpinControl\spin_highlight_down.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\SpinControl\spin_highlight_up.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\SpinControl\spin_normal_down.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\SpinControl\spin_normal_up.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\SpinControl\spin_pushed_down.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\SpinControl\spin_pushed_up.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\SpinControl\down-arrow.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\SpinControl\up-arrow.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\TreeCtrl\expand.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\TreeCtrl\unExpand.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\btn_disabled.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\btn_down.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\btn_hover.png">
+      <Filter>res</Filter>
+    </Image>
+    <Image Include="..\res\images\btn_normal.png">
+      <Filter>res</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <QtRcc Include="..\res\edit.qrc">
+      <Filter>res</Filter>
+    </QtRcc>
+    <QtRcc Include="..\res\skin.qrc">
+      <Filter>res</Filter>
+    </QtRcc>
+    <QtRcc Include="..\res\test.qrc">
+      <Filter>res</Filter>
+    </QtRcc>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\res\skin.ini">
+      <Filter>res</Filter>
+    </None>
+  </ItemGroup>
+</Project>
