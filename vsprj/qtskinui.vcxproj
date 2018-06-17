@@ -573,6 +573,10 @@
   <ItemGroup>
     <QtUic Include="..\form\about.ui" />
     <QtUic Include="..\form\main.ui" />
+<<<<<<< HEAD
+=======
+    <QtUic Include="..\form\test.ui" />
+>>>>>>> f579b44f4a1a7a866116ab9f82af76682cf96f3b
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">
